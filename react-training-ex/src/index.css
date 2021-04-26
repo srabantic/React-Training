@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 600px;
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 5px;
+  background-color:mistyrose;
+}
+.elements{
+  text-align: center;
+}
+.header{
+  text-align: center;
+}
+.players{
+  display: inline-block;
+  margin-right: 30px;
+}
+hr{
+  margin-bottom: 20px;
+}
+.player-one{
+ display: inline-block;
+
+  max-width: 200px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 200px;
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+.player-two{
+  display: inline-block;
+  max-width: 200px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 200px;
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+.players-set-two{
+  display: inline;
+  margin-right: 30px;
+  
+}
+.player-three{
+  display: inline-block;
+  max-width: 200px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 200px;
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+
+}
+.player-four{
+  display: inline-block;
+  max-width: 200px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 200px;
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+.form-select{
+  width:150px;
+  height: 30px;
+  background-color: thistle;
+  border: 2px solid black;
+
+}
